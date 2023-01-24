@@ -67,3 +67,5 @@ alert(info[user]);
 
 let userName = prompt(`Как тебя зовут?`);
 alert (`Привет, ${userName}!`);
+
+// Отправляю домашку на проверку
