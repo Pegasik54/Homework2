@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+
+  .img {
+    height: 1024px;
+    background-image:url(./img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .background {
+    background-image: url(./img/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .title {
+    width: 789px;
+    height: 125px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 217px;
+  }
+
+  .top_text {
+    width: 481px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+  }
+
+  .fat {
+    display: flex;
+    align-items: center;
+  }
+
+  .top_button {
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 44px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+  
+  .product_game {
+    position: relative;
+  }
+
+  .product_text {
+    position: absolute;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    bottom: 32px;
+    left: 32px;
+  }
+
+  @import "mobile.scss";
